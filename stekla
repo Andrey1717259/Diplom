@@ -1,0 +1,139 @@
+
+
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+			integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+			crossorigin="anonymous"
+		/>
+        
+		<title>Главная страница</title>
+
+		<style>
+			
+            body {
+                background-image: url(/RRR.jpg);  
+                background-size: cover;
+                background-position: center center;
+                background-attachment: fixed;                
+            }
+            .sticky {
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            width: 100%;
+            padding-top: 0px;
+            }            
+
+		</style>
+	</head>
+	<body> 
+        <div class="container" id="navbar" style="padding-left: 0%;padding-right: 0%;">         
+		<nav class="navbar navbar-expand-md navbar-light scrollto">
+			<a class="navbar-brand" href="#"></a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Переключатель навигации"
+			>
+				<span class="navbar-toggler-icon bg-white"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html" style="color:white;">
+                            <button type="button" class="btn btn-dark">Вернуться на главную</button>                   
+                            <span class="sr-only">(текущая)</span></a>
+					</li>
+                    </ul>		        				
+			</div>
+		</nav>  
+    </div>
+    <script>
+        // "Липкий навбар"
+        window.onscroll = function() {myFunction()};
+
+let navbar = document.getElementById("navbar");
+let sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+    <div class="container" style="background-color:hsla(0, 0%, 0%, 0.6);border-radius: 2rem;">
+    <div class="row">
+        <div class="col-md-sd-12">
+            <!-- <div class="container" style="color: white;"> -->
+                <div class="container">
+                <p>             
+                       <img src="/tonirov.jpg" alt="" align="left" vspace="5" hspace="5" style="border-radius:2rem;border-color: orangered; border-style: groove;">
+                       
+               <h1 style="color:white">
+                   ТОНИРОВКА. АТЕРМАЛЬНЫЕ ПЛЕНКИ И БРОНИРОВАНИЕ СТЕКОЛ.
+                </h1>
+                <h5 style="color:white;">
+                    При правильно подобранном цвете тонировочного материала, автомобиль выглядит еще более стильно и солидно. Важно использовать только качественное сырье, которое не испортит внешний вид транспортного средства.
+                </h5>
+                
+                <h5 style="color:white;">
+                    Большинство плёнок защищают от проникновения вредных УФ-лучей. Тонировка дарит водителю комфорт при движении в ночное время или солнечные дни, поскольку она защищает глаза от ярких бликов и света встречных фар. Это значительно повышает безопасность езды. 
+                    При затемнении стекол проявляется эффект односторонней видимости. То есть снаружи невозможно разглядеть, что находится внутри машины. Можно быть спокойными, оставляя там сумки или какие-то ценности.
+                    Тонировка защищает салон от света, за счет чего внутренняя обивка дольше сохраняет свой цвет.
+                    Летом автомобиль меньше нагревается, за счет частичного отражения солнечных лучей.
+                    Атермальная тонировка (или «термопленка») — это разновидность лакокрасочного покрытия, которое наносят на стекла машины. Тонкая пленка состоит из нескольких слоев. 
+                    В отличие от обычной пленки, атермальная не скрывает освещение, но защищает от тепловых (до 55%) и ультрафиолетовых волн (до 99%). 
+                    Светопропускание остается на уровне 75%, благодаря чему такой вариант тонировки лучше обычной.
+                    Бронирование стекол - это работа по повышению ударопрочных качеств штатных стекол Вашего автомобиля. Производится путем нанесения изнутри на стекла автомобиля специальной бронировочной пленки повышенной толщины. 
+                    Стекла являются одной из наиболее уязвимых зон автомобиля. Тонкая прозрачная преграда неспособна сопротивляться действиям преступников, при этом может серьезно травмировать глаза осколками в случае аварии. 
+                    Усилить защиту этой зоны можно пленочным бронированием, которое позволяет затруднить преступникам проникновение в салон машины.
+                    Процедура «бронирования» имеет мало отличий от процедуры тонировки. Используется особая пленка - более толстая и крепкая. 
+                    Связка из стекла и пленки имеет повышенную стойкость к удару - у стекла существенно повышаются шансы уцелеть при попытках незаметно разбить его с целью кражи из автомобиля или при ДТП.
+
+
+
+                </h5>
+                <h5 style="color:white" >
+
+               </h5>
+                </p>
+            <!-- </div> -->
+        </div>
+        </div>
+    </div>
+    </div>
+    <footer class="container-fluid py-3" style="background-color:rgba(0, 0, 0, 0.5)">
+        <div class="row">
+            
+        
+            <div class="col-md-12 text-center">
+           <font style="color:white">© Все права защищены Смирнов А.В. 2022</font>
+        </div>
+        </div>
+    </footer>    
+		<script
+			src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
