@@ -1,0 +1,158 @@
+
+
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+			integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+			crossorigin="anonymous"
+		/>
+        
+		<title>Главная страница</title>
+
+		<style>
+			
+            body {
+                background-image: url(/RRR.jpg);  
+                background-size: cover;
+                background-position: center center;
+                background-attachment: fixed;                
+            }
+            .sticky {
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            width: 100%;
+            padding-top: 0px;
+            }            
+
+		</style>
+	</head>
+	<body>
+        
+        <div class="container" id="navbar" style="padding-left: 0%;padding-right: 0%;">         
+		<nav class="navbar navbar-expand-md navbar-light scrollto">
+			<a class="navbar-brand" href="#"></a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Переключатель навигации"
+			>
+				<span class="navbar-toggler-icon bg-white"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html" style="color:white;">
+                            <button type="button" class="btn btn-dark">Вернуться на главную</button>                   
+                            <span class="sr-only">(текущая)</span></a>
+					</li>
+                    </ul>		
+            				
+			</div>
+		</nav>
+    
+    </div>
+    <script>
+        // "Липкий навбар"
+        window.onscroll = function() {myFunction()};
+
+let navbar = document.getElementById("navbar");
+let sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+   
+      
+  
+
+    <div class="container" style="background-color:hsla(0, 0%, 0%, 0.6);border-radius: 2rem;">
+    <div class="row">
+        <div class="col-md-sd-12">
+            <!-- <div class="container" style="color: white;"> -->
+                <div class="container">
+                <p>             
+                       <img src="/polirovka.jpg" alt="" align="left" vspace="5" hspace="5" style="border-radius:2rem;border-color: orangered; border-style: groove;">
+                       
+               <h1 style="color:white">
+                   ПОЛИРОВКА И ЖИДКОЕ СТЕКЛО
+                </h1>
+                <h5 style="color:white;">
+                    Это один из популярных и эффективных способов защитить машину. Работает так: поверхность кузова избавляется от дефектов и царапин с помощью полировки, далее наносится жидкое стекло. Оно соединяется со структурой защитного слоя кузова, образуя пленку. Пленка защищает кузов и радует вас блеском.
+                </h5>
+                
+                <h5 style="color:white;">
+                    От полировки с керамикой такая процедура отличается тем, что жидкое стекло не пропитывает лак, лишь создает защитную пленку. Нанокерамика глубже проникает в структуру, поэтому защищает сильнее, однако и стоит дороже, дольше служит.
+                </h5>
+                <h5 style="color:white" >
+                    Перед покрытием нужно очистить кузов, избавиться от царапин. Поэтому сначала нужно оценить степень поврежденности автомобиля, состояние его ЛКП. Затем машину нужно тщательно помыть и очистить. 
+                    Далее необходима полировка, в процессе которой снимается поврежденный слой ЛКП, удаляются царапины. Полировка кузова автомобиля очень важна в этой процедуре, иначе покрытие не принесет желанного эффекта.
+                    Защитное покрытие способно предотвращать новые повреждения, но вот спасти от старых царапин оно не в силах. Без полировки царапины под покрытием будут заметнее, поэтому так важно избавиться от них заранее.
+                    После полировки кузов покрывают жидким стеклом. На нанесение одного слоя требуется не меньше двух часов. За это время покрытие заполняет трещины, обеспечивая защиту и делая цвет ярче.
+                    Покрытие нужно наносить на идеально чистый автомобиль, аккуратно. Важно, чтобы машина находилась в чистом помещении (лучше всего подойдет покрасочная камера). Поэтому лучше не выполнять процедуру самостоятельно, слишком велик риск разочароваться. 
+                    Есть еще некоторые нюансы, на которые следует обратить внимание при выборе детейлинг центра. Если вам дорог автомобиль, то не стоит везти его в первую попавшуюся мойку с надписью на вывеске “полировка жидким стеклом”. Лучше перестраховаться и обратить внимание на некоторые детали. В противном случае, вера в полировку и в действенность покрытия стеклом пропадет.
+                </h5>
+                </p>
+            <!-- </div> -->
+        </div>
+        </div>
+        
+        
+    </div>
+    </div>
+    
+    
+    
+      
+        
+        
+  
+               
+              
+                
+        
+     
+    
+				 
+					
+	
+		
+        
+
+    <footer class="container-fluid py-3" style="background-color:rgba(0, 0, 0, 0.5)">
+        <div class="row">
+            
+        
+            <div class="col-md-12 text-center">
+           <font style="color:white">© Все права защищены Смирнов А.В. 2022</font>
+        </div>
+        </div>
+    </footer>    
+		<script
+			src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
